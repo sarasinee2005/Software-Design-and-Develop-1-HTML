@@ -31,9 +31,42 @@
 ### บันทึกผลการทดลอง
 - รหัสเอกสาร HTML ที่เขียน:
 ```html
-[วางโค้ด HTML ที่นี่]
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แนะนำตัวเอง</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; }
+        h1, h2 { color: #333; }
+        p { line-height: 1.6; color: #555; }
+        hr { margin: 20px 0; }
+    </style>
+</head>
+<body>
+
+    <h1>ชื่อสราสินี สิทธิสาร</h1>
+
+    <h2>ประวัติการศึกษา</h2>
+    <p>กำลังศึกษาอยู่ที่สถาบันเทคโนยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี สาขาเทคโนโลยีคอมพิวเตอร์</p>
+
+    <hr>
+
+    <h2>งานอดิเรก</h2>
+    <p>ชอบอ่านหนังสือ, เล่นเกมส์, และออกกำลังกาย</p>
+
+    <hr>
+
+    <h2>เป้าหมายในอนาคต</h2>
+    <p>ต้องการจะนำเอาความรู้ด้านการเขียนโปรแกรมไปพัฒนาใช้ในอนาคตให้เกิดประโยชน์สูงสุด</p>
+
+</body>
+</html>
+
 ```
 - ภาพผลลัพธ์:
-[วางภาพ screenshot ที่นี่]
+![image](https://github.com/user-attachments/assets/b8082acc-0e00-449b-9ccc-315aaa891e4e)
+
 
 
