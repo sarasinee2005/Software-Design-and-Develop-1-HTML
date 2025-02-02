@@ -165,10 +165,116 @@
 ### บันทึกผลการทดลอง
 - รหัสเอกสาร HTML ที่เขียน:
 ```html
-[วางโค้ด HTML ที่นี่]
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>หน้าหลัก</title>
+</head>
+<body>
+    <!-- ส่วนของเนื้อหา -->
+</body>
+</html>
+
+<nav>
+    <!-- ลิงก์ภายใน - ไปยังหน้าในเว็บไซต์เดียวกัน -->
+    <a href="index.html">หน้าหลัก</a>
+    <a href="pages/about.html">เกี่ยวกับเรา</a>
+    <a href="pages/contact.html">ติดต่อเรา</a>
+    
+    <!-- ลิงก์ภายนอก - เปิดในแท็บใหม่ -->
+    <a href="https://www.google.com" target="_blank">
+        ไปยัง Google
+    </a>
+</nav>
+
+<!-- สร้างจุดเชื่อมโยง -->
+<section id="top">
+    <h1>ร้านอาหารสองสไตล์</h1>
+</section>
+
+<section id="products">
+    <h2>สินค้าของเรา</h2>
+</section>
+
+<!-- ลิงก์ไปยังจุดเชื่อมโยง -->
+<a href="#top">กลับด้านบน</a>
+<a href="#products">ไปยังสินค้า</a>
+
+<!-- ลิงก์อีเมล -->
+<a href="mailto:contact@example.com">ส่งอีเมลหาเรา</a>
+
+<!-- ลิงก์โทรศัพท์ -->
+<a href="tel:+66812345678">โทร 081-234-5678</a>
+
+<!-- ลิงก์ดาวน์โหลด -->
+<a href="files/document.pdf" download>
+    ดาวน์โหลดเอกสาร
+</a>
+
+
+<!-- รูปภาพในโฟลเดอร์ย่อย products -->
+<img src="images/products/products1.jpg" 
+     alt="สินค้าชิ้นที่ 1"
+     width="300"
+     height="200">
+     <figcaption>
+        สปาเกตตี้
+     </figcaption>
+
+     <figure>
+        <img src="images/products/products2.jpg" 
+             alt="สินค้าชิ้นที่ 2">
+        <figcaption>
+          ราเมง
+        </figcaption>
+    </figure>
+
+    <img src="images/products/producst3.jpg" 
+     alt="สินค้าชิ้นที่ 1"
+     width="300"
+     height="200">
+     <figcaption>
+        ต้มยำกุ้ง
+     </figcaption>
+     </figure>
+
+     <img src="images/products/products4.jpg" 
+     alt="สินค้าชิ้นที่ 1"
+     width="300"
+     height="200">
+     <figcaption>
+        ผัดกระเพรา
+     </figcaption>
+
+    <a href="images/products/products1.jpg">
+        <img src="images/products/product1.jpg" 
+             alt="คลิกเพื่อดูรูปขนาดใหญ่"
+             width="200">
+    </a>
+
+    <a href="images/products/products2.jpg">
+        <img src="images/products/product2.jpg" 
+             alt="คลิกเพื่อดูรูปขนาดใหญ่"
+             width="300">
+    </a>
+
+    <a href="images/products/producst3.jpg">
+        <img src="images/products/product3.jpg" 
+             alt="คลิกเพื่อดูรูปขนาดใหญ่"
+             width="200">
+    </a>
+
+    <a href="images/products/products4.jpg">
+        <img src="images/products/product4.jpg" 
+             alt="คลิกเพื่อดูรูปขนาดใหญ่"
+             width="200">
+    </a>
 ```
 - ภาพผลลัพธ์:
-[วางภาพ screenshot ที่นี่]
+![image](https://github.com/user-attachments/assets/d5adfcb0-75c5-4e54-8bc1-4120c99b0152)
+![image](https://github.com/user-attachments/assets/78c2f9a5-5bba-401a-be8a-395c35702054)
+
 
 
 
