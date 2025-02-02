@@ -67,9 +67,39 @@
 2. สร้างรายการเมนูอาหาร
 
 [วางโค้ด HTML ที่นี่]
-```html
+ตารางแสดงข้อมูลส่วนตัว
+<table border="1">
+    <thead>
+        <tr>
+            <th>ชื่อ</th>
+            <th>อายุ</th>
+            <th>วันเกิด</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>สราสินี, สิทธิสาร</td>
+            <td>19</td>
+            <td>9 มิถุนา 2548</td>
+        </tr>
+
+รายการอาหาร
+<ul>
+    <li>รายการอาหาร</li>
+   
+</ul>
+
+<ol>
+    <li>ต้มยำกุ้ง</li>
+    <li>ผัดไท</li>
+    <li>ส้มตำ</li>
+    <li>แกงส้ม</li>
+</ol>
+        
 
 ```
 - ภาพผลลัพธ์:
-[วางภาพ screenshot ที่นี่]
+![image](https://github.com/user-attachments/assets/fbd574c5-60ae-49d6-a4c1-0aa44a3c8fb7)
+![image](https://github.com/user-attachments/assets/5c44cb16-aa5b-4154-ada4-135d64e6d11b)
+
 
